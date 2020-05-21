@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: bisque;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+#model-card {
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 20px grey, -5px -5px 20px grey;
+          box-shadow: 5px 5px 20px grey, -5px -5px 20px grey;
+}
+
+#model-card h1 {
+  font-size: 3rem;
+}
+
+#model-card p {
+  border: 1px solid bisque;
+  background-color: bisque;
+  color: #653a04;
+  padding: 1rem;
+  width: 50%;
+  font-weight: 600;
+  margin: 1rem auto;
+}
+
+#model-card p:hover {
+  cursor: pointer;
+}
+
+#model-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #0000006e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+#model-text__card {
+  background-color: bisque;
+  padding: 3rem;
+  border-radius: 5px;
+  position: relative;
+}
+
+#model-text__card i {
+  position: absolute;
+  font-size: 1.5rem;
+  right: 10px;
+  top: 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#model-text__card i:hover {
+  cursor: pointer;
+  color: #df4e4e;
+}
+
+#model-text__card h2 {
+  font-size: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
